@@ -63,8 +63,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
    deberiamos ver el micro **AUTH-SERVICE** registrado en eureka
 
 ## Documentación
-La documentación del API orders la podemos encontrar en:
-http://localhost:8087/swagger-ui/index.html
+La documentación del API orders la podemos encontrar a través del gateway en:
+http://localhost:8080/swagger-ui.html
 
 **NOTA** usuario valido para generar TOKEN
 **user:** admin
