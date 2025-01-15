@@ -1,0 +1,46 @@
+### Java ###
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Java packaging files
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+.nb/
+
+# VSCode
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper
+mvnw
+mvnw.cmd

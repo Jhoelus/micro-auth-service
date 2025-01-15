@@ -8,6 +8,7 @@ El propocito de este micro es generar y validar tokens de acceso.
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
+- [Documentacion](#Documentacion)
 
 ## Descripción
 
@@ -61,4 +62,17 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 5. Para asegurar que el micro esta correctamente arriba ir a http://localhost:8761/
    deberiamos ver el micro **AUTH-SERVICE** registrado en eureka
 
+## Documentación
+La documentación del API orders la podemos encontrar en:
+http://localhost:8087/swagger-ui/index.html
 
+**NOTA** usuario valido para generar TOKEN
+**user:** admin
+**password:** password
+
+```bash
+curl --request POST \
+--url http://localhost:8080/api/auth/login \
+--header 'Content-Type: application/json' \
+--header 'User-Agent: insomnia/10.1.0' \
+--data '{ 	"user": "admin", 	"password": "password" }'
